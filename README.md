@@ -70,7 +70,7 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
 > [!NOTE]
 > Desarrollado en VB.NET utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
 
-- Desarrollo de un sistema de gestión para el manejo de un establecimiento ganadero #2 (2018)
+- [Desarrollo de un sistema de gestión para el manejo de un establecimiento ganadero #2 (2018)](https://github.com/francobottini99/SIS-SIEGAN2-2018)
     -
 
     - **Fecha:** 12/01/2018 - 12/10/2018
@@ -79,9 +79,6 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
 
 > [!NOTE]
 > Desarrollado en VB.NET utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos. El sistema de manejo por caravanas electrónicas se implementa utilizando `Arduino`.
-
-> [!WARNING]
-> Proximamente voy a estar subiendo el proyecto a un repositorio y dejando el enlace en esta sección.
 
 - [Desarrollo de un sistema para el control de asistencia de alumnos por huella dactilar (2018)](https://github.com/francobottini99/SIS-SIA-2018.git)
     -
