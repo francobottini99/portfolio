@@ -100,18 +100,15 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
 > [!NOTE]
 > Desarrollado en VB.NET utilizando el framework `.NET Framework` para el cliente y `ASP.NET` para el servidor. Se utiliza `MySQL` como base de datos. El despliegue del servidor se realiza en `IIS`.
 
-- Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2022)
+- [Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2021)](https://github.com/francobottini99/SIS-SICMA1-2022)
     -
 
-    - **Fecha:** 05/01/2022 - 30/03/2022
+    - **Fecha:** 05/06/2021 - 30/07/2021
 
-    - **Descripción:** Sistema automatizado de reabastecimiento de agua en producciones ganaderas de engorde a corral. El sistema controla en tiempo real el nivel de agua del tanque de abastecimiento de la producción, y envía en forma remota información al productor sobre el estado del mismo, éste recibe dicha información en una App de celular, y podrá actuar en consecuencia. Si el funcionamiento es normal, el sistema mantiene el nivel de agua dentro de los límites que establezcamos cómo parámetro, encendiendo y apagando la bomba alimentadora cuando los niveles llegan a dichos limites. Además el sistema cuenta con muchos mecanismos de seguridad y alertas  para salvaguardar la integridad de la bomba en caso de fallos. Cada acción que implementa el sistema se informa, mediante SMS a un celular.
+    - **Descripción:** Sistema automatizado de reabastecimiento de agua en producciones ganaderas de engorde a corral. El sistema controla en tiempo real el nivel de agua del tanque de abastecimiento de la producción, y envía en forma remota información al productor sobre el estado del mismo, éste recibe dicha información a traves de mensajes SMS, y podrá actuar en consecuencia. Si el funcionamiento es normal, el sistema mantiene el nivel de agua dentro de los límites que establezcamos cómo parámetro, encendiendo y apagando la bomba alimentadora cuando los niveles llegan a dichos limites. Además el sistema cuenta con muchos mecanismos de seguridad y alertas  para salvaguardar la integridad de la bomba en caso de fallos. Cada acción que implementa el sistema se informa, mediante SMS a un celular.
 
 > [!NOTE]
 > El sistema esta dividido en dos dispositivos, el primero encargado del control de la bomba y el segundo cumple la función de recibir SMS de control y enviar SMS de notificación del sistema. El software de ambos dispositivos esta desarrollado en C++ y se comunican entre ellos por medio de modulos de radiofrecuencia. 
-
-> [!WARNING]
-> Proximamente voy a estar subiendo el proyecto a un repositorio y dejando el enlace en esta sección.
 
 - [Desarrollo de un sistema de gestión para gimnasios (2022)](https://github.com/francobottini99/SIS-GYMCORE-2022.git)
     -
