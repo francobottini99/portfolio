@@ -100,7 +100,7 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
 > [!NOTE]
 > Desarrollado en VB.NET utilizando el framework `.NET Framework` para el cliente y `ASP.NET` para el servidor. Se utiliza `MySQL` como base de datos. El despliegue del servidor se realiza en `IIS`.
 
-- [Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2021)](https://github.com/francobottini99/SIS-SICMA1-2022)
+- [Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2021)](https://github.com/francobottini99/SIS-SICMA1-2021)
     -
 
     - **Fecha:** 05/06/2021 - 30/07/2021
