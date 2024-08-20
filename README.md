@@ -10,10 +10,9 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
     - [Desarrollo de un sistema de gestión para el manejo de un establecimiento ganadero #2 (2018)](#desarrollo-de-un-sistema-de-gestión-para-el-manejo-de-un-establecimiento-ganadero-2-2018)
     - [Desarrollo de un sistema para el control de asistencia de alumnos por huella dactilar (2018)](#desarrollo-de-un-sistema-para-el-control-de-asistencia-de-alumnos-por-huella-dactilar-2018)
     - [Desarrollo de un sistema de gestión para la venta de agroinsumos (2019 - 2021)](#desarrollo-de-un-sistema-de-gestión-para-la-venta-de-agroinsumos-2019---2021)
-    - [Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2022)](#desarrollo-de-un-sistema-de-control-de-llenado-para-un-tanque-de-agua-rural-1-2022)
+    - [Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2021)](#desarrollo-de-un-sistema-de-control-de-llenado-para-un-tanque-de-agua-rural-1-2021)
     - [Desarrollo de un sistema de gestión para gimnasios (2022)](#desarrollo-de-un-sistema-de-gestión-para-gimnasios-2022)
     - [Desarrollo de un sistema de control de llenado para un tanque de agua rural #2 (2022)](#desarrollo-de-un-sistema-de-control-de-llenado-para-un-tanque-de-agua-rural-2-2022)
-    - [Desarrollo de un sistema de gestión para la administración de una institución educativa (2023)](#desarrollo-de-un-sistema-de-gestión-para-la-administración-de-una-institución-educativa-2023)
     - [Desarrollo de una balanza para el pesaje de ganado bovino (2023)](#desarrollo-de-una-balanza-para-el-pesaje-de-ganado-bovino-2023)
     - [Desarrollo de un modulo de kernel para Linux (2023)](#desarrollo-de-un-modulo-de-kernel-para-linux-2023)
     - [Desarrollo de un procesador MIPS simplificado para una placa de desarrollo FPGA (2023)](#desarrollo-de-un-procesador-mips-simplificado-para-una-placa-de-desarrollo-fpga-2023)
@@ -22,6 +21,7 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
     - [Desarrollo de un sistema de alimentación automático para mascotas (2022)](#desarrollo-de-un-sistema-de-alimentación-automático-para-mascotas-2022)
     - [Desarrollo de una Shell simple para Linux #1 (2022)](#desarrollo-de-una-shell-simple-para-linux-1-2022)
     - [Desarrollo de una Shell simple para Linux #2 (2022)](#desarrollo-de-una-shell-simple-para-linux-2-2022)
+    - [Desarrollo de un sistema de gestión para la administración de una institución educativa (2023)](#desarrollo-de-un-sistema-de-gestión-para-la-administración-de-una-institución-educativa-2023)
     - [Desarrollo de un Sistema de comunicación cliente / servidor en C #1 (2023)](#desarrollo-de-un-sistema-de-comunicación-cliente--servidor-en-c-1-2023)
     - [Desarrollo de un Sistema de comunicación cliente / servidor en C #2 (2023)](#desarrollo-de-un-sistema-de-comunicación-cliente--servidor-en-c-2-2023)
     - [Desarrollo de un programa simple de procesamiento de imágenes (2023)](#desarrollo-de-un-programa-simple-de-procesamiento-de-imágenes-2023)
@@ -133,16 +133,6 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
 > [!WARNING]
 > Proximamente voy a estar subiendo el proyecto a un repositorio y dejando el enlace en esta sección.
 
-- [Desarrollo de un sistema de gestión para la administración de una institución educativa (2023)](https://github.com/francobottini99/SIS-SISEDU-2023.git)
-    -
-
-    - **Fecha:** 18/01/2023 - 02/03/2023
-
-    - **Descripción:** En este trabajo se desarrolla un sistema de gestión para la administración de una institución educativa. El sistema permite llevar un control de los alumnos, los profesores, las materias, las notas, etc.
-
-> [!NOTE]
-> Desarrollado en C# utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
-
 - Desarrollo de una balanza para el pesaje de ganado bovino (2023)
     -
 
@@ -217,6 +207,16 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
 
 > [!NOTE]
 > Desarrollado en C utilizando las herramientas de GNU/Linux.
+
+- [Desarrollo de un sistema de gestión para la administración de una institución educativa (2023)](https://github.com/francobottini99/SIS-SISEDU-2023.git)
+    -
+
+    - **Fecha:** 18/01/2023 - 02/03/2023
+
+    - **Descripción:** En este trabajo se desarrolla un sistema de gestión para la administración de una institución educativa. El sistema permite llevar un control de los alumnos, los profesores, las materias, las notas, etc.
+
+> [!NOTE]
+> Desarrollado en C# utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
 
 - [Desarrollo de un Sistema de comunicación cliente / servidor en C #1 (2023)](https://github.com/francobottini99/LINUXCLIENTSERVER1-2023.git)
     -
