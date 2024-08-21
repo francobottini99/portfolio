@@ -17,7 +17,7 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
     - [Desarrollo de un modulo de kernel para Linux (2023)](#desarrollo-de-un-modulo-de-kernel-para-linux-2023)
     - [Desarrollo de un procesador MIPS simplificado para una placa de desarrollo FPGA (2023)](#desarrollo-de-un-procesador-mips-simplificado-para-una-placa-de-desarrollo-fpga-2023)
 - [Proyectos Interesantes](#proyectos-interesantes)
-    - [Desarrollo de un sistema para la organización de expedientes judiciales (2021)](#desarrollo-de-un-sistema-para-la-organización-de-expedientes-judiciales-2021)
+    - [Desarrollo de un sistema para la organización de expedientes judiciales (2020)](#desarrollo-de-un-sistema-para-la-organización-de-expedientes-judiciales-2020)
     - [Desarrollo de un sistema de comunicación entre microcontroladres en ASM (2021)](#desarrollo-de-un-sistema-de-comunicación-entre-microcontroladres-en-asm-2021)
     - [Desarrollo de un sistema de alimentación automático para mascotas (2022)](#desarrollo-de-un-sistema-de-alimentación-automático-para-mascotas-2022)
     - [Desarrollo de una Shell simple para Linux #1 (2022)](#desarrollo-de-una-shell-simple-para-linux-1-2022)
@@ -168,10 +168,10 @@ En este documento, comparto una selección de algunos de los proyectos en los qu
 > Desarrollado en Verilog. Se utiliza la placa de desarrollo `Basys 3`. Interfaz de usuario desarrollada en Python.
 
 ## Proyectos Interesantes
-- [Desarrollo de un sistema para la organización de expedientes judiciales (2021)](https://github.com/francobottini99/SIS-BDCCJ-2021)
+- [Desarrollo de un sistema para la organización de expedientes judiciales (2020)](https://github.com/francobottini99/SIS-BDCJ-2020)
     -
 
-    - **Fecha:** 07/01/2021 - 23/01/2021
+    - **Fecha:** 07/12/2020 - 23/12/2020
 
     - **Descripción:** Programa simple que facilita el almacenamiento, etiquetado y recuperación de archivos judiciales. Permite catalogar expedientes digitales anexando infomación que facilite su posterior busqueda y recuperación.
       
