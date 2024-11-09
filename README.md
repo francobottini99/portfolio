@@ -1,431 +1,432 @@
 # Portfolio
 
-En este documento, comparto una selección de algunos de los proyectos en los que he trabajado a lo largo de mi trayectoria como desarrollador.
- 
-## Índice
+This document provides a selection of some projects I have worked on throughout my career as a developer.
 
-- [Proyectos Destacados](#proyectos-destacados)
-    - [Desarrollo de un sistema de gestión para la venta de insumos informáticos (2015 - 2016)](#desarrollo-de-un-sistema-de-gestión-para-la-venta-de-insumos-informáticos-2015---2016)
-    - [Desarrollo de un sistema de gestión para el manejo de un establecimiento ganadero #1 (2017)](#desarrollo-de-un-sistema-de-gestión-para-el-manejo-de-un-establecimiento-ganadero-1-2017)
-    - [Desarrollo de un sistema de gestión para el manejo de un establecimiento ganadero #2 (2018)](#desarrollo-de-un-sistema-de-gestión-para-el-manejo-de-un-establecimiento-ganadero-2-2018)
-    - [Desarrollo de un sistema para el control de asistencia de alumnos por huella dactilar (2018)](#desarrollo-de-un-sistema-para-el-control-de-asistencia-de-alumnos-por-huella-dactilar-2018)
-    - [Desarrollo de un sistema de gestión para la venta de agroinsumos (2019 - 2021)](#desarrollo-de-un-sistema-de-gestión-para-la-venta-de-agroinsumos-2019---2021)
-    - [Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2021)](#desarrollo-de-un-sistema-de-control-de-llenado-para-un-tanque-de-agua-rural-1-2021)
-    - [Desarrollo de un sistema de gestión para gimnasios (2022)](#desarrollo-de-un-sistema-de-gestión-para-gimnasios-2022)
-    - [Desarrollo de un sistema de control de llenado para un tanque de agua rural #2 (2022)](#desarrollo-de-un-sistema-de-control-de-llenado-para-un-tanque-de-agua-rural-2-2022)
-    - [Desarrollo de una balanza para el pesaje de ganado bovino (2023)](#desarrollo-de-una-balanza-para-el-pesaje-de-ganado-bovino-2023)
-    - [Desarrollo de un modulo de kernel para Linux (2023)](#desarrollo-de-un-modulo-de-kernel-para-linux-2023)
-    - [Desarrollo de un procesador MIPS simplificado para una placa de desarrollo FPGA (2023)](#desarrollo-de-un-procesador-mips-simplificado-para-una-placa-de-desarrollo-fpga-2023)
-- [Proyectos Interesantes](#proyectos-interesantes)
-    - [Desarrollo de un sistema para la organización de expedientes judiciales (2020)](#desarrollo-de-un-sistema-para-la-organización-de-expedientes-judiciales-2020)
-    - [Desarrollo de un sistema de comunicación entre microcontroladres en ASM (2021)](#desarrollo-de-un-sistema-de-comunicación-entre-microcontroladres-en-asm-2021)
-    - [Desarrollo de un sistema de alimentación automático para mascotas (2022)](#desarrollo-de-un-sistema-de-alimentación-automático-para-mascotas-2022)
-    - [Desarrollo de una Shell simple para Linux #1 (2022)](#desarrollo-de-una-shell-simple-para-linux-1-2022)
-    - [Desarrollo de una Shell simple para Linux #2 (2022)](#desarrollo-de-una-shell-simple-para-linux-2-2022)
-    - [Desarrollo de un sistema de gestión para la administración de una institución educativa (2023)](#desarrollo-de-un-sistema-de-gestión-para-la-administración-de-una-institución-educativa-2023)
-    - [Desarrollo de un Sistema de comunicación cliente / servidor en C #1 (2023)](#desarrollo-de-un-sistema-de-comunicación-cliente--servidor-en-c-1-2023)
-    - [Desarrollo de un Sistema de comunicación cliente / servidor en C #2 (2023)](#desarrollo-de-un-sistema-de-comunicación-cliente--servidor-en-c-2-2023)
-    - [Desarrollo de un programa simple de procesamiento de imágenes (2023)](#desarrollo-de-un-programa-simple-de-procesamiento-de-imágenes-2023)
-    - [Desarrollo de una API REST simple en C (2023)](#desarrollo-de-una-api-rest-simple-en-c-2023)
-    - [Desarrollo de una API REST simple en Go (2023)](#desarrollo-de-una-api-rest-simple-en-go-2023)
-    - [Desarrollo de una API REST simple en Rust (2023)](#desarrollo-de-una-api-rest-simple-en-rust-2023)
-    - [Desarrollo de un sistema de sensado utilizando RTOS (2024)](#desarrollo-de-un-sistema-de-sensado-utilizando-rtos-2024)
-- [Proyectos Simples](#proyectos-simples)
-    - [Práctica de algoritmos y estructura de datos en C++ (2021)](#práctica-de-algoritmos-y-estructura-de-datos-en-c-2021)
-    - [Práctica con arboles n-arios en C++ (2021)](#práctica-con-arboles-n-arios-en-c-2021)
-    - [Práctica con grafos en C++ (2021)](#práctica-con-grafos-en-c-2021)
-    - [Práctica de programación concurrente en Java (2022)](#práctica-de-programación-concurrente-en-java-2022)
-    - [Práctica con el lenguaje C y las herramientas de GNU/Linux #1 (2022)](#práctica-con-el-lenguaje-c-y-las-herramientas-de-gnulinux-1-2022)
-    - [Práctica con el lenguaje C y las herramientas de GNU/Linux #2 (2022)](#práctica-con-el-lenguaje-c-y-las-herramientas-de-gnulinux-2-2022)
-    - [Práctica con el lenguaje C y las herramientas de GNU/Linux #3 (2022)](#práctica-con-el-lenguaje-c-y-las-herramientas-de-gnulinux-3-2022)
-    - [Práctica de optimización de programas en C (2023)](#práctica-de-optimización-de-programas-en-c-2023)
-    - [Práctica de interfaz entre C y ASM (2023)](#práctica-de-interfaz-entre-c-y-asm-2023)
-    - [Práctica de programación funcional en C++ (2023)](#práctica-de-programación-funcional-en-c-2023)
-    - [Práctica de programación orientada a objetos en Kotlin (2023)](#práctica-de-programación-orientada-a-objetos-en-kotlin-2023)
-- [Publicaciones](#publicaciones)
-    - [Estudio del impacto de ChatGPT en la enseñanza de materias introductorias a la programación (2023)](#estudio-del-impacto-de-chatgpt-en-la-enseñanza-de-materias-introductorias-a-la-programación-2023)
-- [Otros Ensayos](#otros-ensayos)
-    - [Simulación del flujo de datos en una red LAN (2021)](#simulación-del-flujo-de-datos-en-una-red-lan-2021)
-    - [Sistema de control para la carga automática de un mixer por medio de un chimango (2021)](#sistema-de-control-para-la-carga-automática-de-un-mixer-por-medio-de-un-chimango-2021)
-    - [Detección de espectro en redes de radio cognitivas: optimización y análisis de umbrales (2022)](#detección-de-espectro-en-redes-de-radio-cognitivas-optimización-y-análisis-de-umbrales-2022)
+## Index
 
-## Proyectos Destacados
+- [Featured Projects](#featured-projects)
+    - [Development of a management system for computer supplies sales (2015 - 2016)](#development-of-a-management-system-for-computer-supplies-sales-2015---2016)
+    - [Development of a management system for handling a livestock farm #1 (2017)](#development-of-a-management-system-for-handling-a-livestock-farm-1-2017)
+    - [Development of a management system for handling a livestock farm #2 (2018)](#development-of-a-management-system-for-handling-a-livestock-farm-2-2018)
+    - [Development of a fingerprint-based student attendance control system (2018)](#development-of-a-fingerprint-based-student-attendance-control-system-2018)
+    - [Development of a management system for agro-inputs sales (2019 - 2021)](#development-of-a-management-system-for-agro-inputs-sales-2019---2021)
+    - [Development of a water tank fill control system for rural use #1 (2021)](#development-of-a-water-tank-fill-control-system-for-rural-use-1-2021)
+    - [Development of a gym management system (2022)](#development-of-a-gym-management-system-2022)
+    - [Development of a water tank fill control system for rural use #2 (2022)](#development-of-a-water-tank-fill-control-system-for-rural-use-2-2022)
+    - [Development of a cattle weighing scale (2023)](#development-of-a-cattle-weighing-scale-2023)
+    - [Development of a Linux kernel module (2023)](#development-of-a-linux-kernel-module-2023)
+    - [Development of a simplified MIPS processor for an FPGA development board (2023)](#development-of-a-simplified-mips-processor-for-an-fpga-development-board-2023)
+- [Interesting Projects](#interesting-projects)
+    - [Development of a judicial file organization system (2020)](#development-of-a-judicial-file-organization-system-2020)
+    - [Development of an inter-microcontroller communication system in ASM (2021)](#development-of-an-inter-microcontroller-communication-system-in-asm-2021)
+    - [Development of an automatic pet feeding system (2022)](#development-of-an-automatic-pet-feeding-system-2022)
+    - [Development of a simple shell for Linux #1 (2022)](#development-of-a-simple-shell-for-linux-1-2022)
+    - [Development of a simple shell for Linux #2 (2022)](#development-of-a-simple-shell-for-linux-2-2022)
+    - [Development of a management system for an educational institution (2023)](#development-of-a-management-system-for-an-educational-institution-2023)
+    - [Development of a client/server communication system in C #1 (2023)](#development-of-a-clientserver-communication-system-in-c-1-2023)
+    - [Development of a client/server communication system in C #2 (2023)](#development-of-a-clientserver-communication-system-in-c-2-2023)
+    - [Development of a simple image processing program (2023)](#development-of-a-simple-image-processing-program-2023)
+    - [Development of a simple REST API in C (2023)](#development-of-a-simple-rest-api-in-c-2023)
+    - [Development of a simple REST API in Go (2023)](#development-of-a-simple-rest-api-in-go-2023)
+    - [Development of a simple REST API in Rust (2023)](#development-of-a-simple-rest-api-in-rust-2023)
+    - [Development of a sensing system using RTOS (2024)](#development-of-a-sensing-system-using-rtos-2024)
+- [Simple Projects](#simple-projects)
+    - [Practice with algorithms and data structures in C++ (2021)](#practice-with-algorithms-and-data-structures-in-c-2021)
+    - [Practice with n-ary trees in C++ (2021)](#practice-with-n-ary-trees-in-c-2021)
+    - [Practice with graphs in C++ (2021)](#practice-with-graphs-in-c-2021)
+    - [Practice with concurrent programming in Java (2022)](#practice-with-concurrent-programming-in-java-2022)
+    - [Practice with C language and GNU/Linux tools #1 (2022)](#practice-with-c-language-and-gnulinux-tools-1-2022)
+    - [Practice with C language and GNU/Linux tools #2 (2022)](#practice-with-c-language-and-gnulinux-tools-2-2022)
+    - [Practice with C language and GNU/Linux tools #3 (2022)](#practice-with-c-language-and-gnulinux-tools-3-2022)
+    - [Practice with program optimization in C (2023)](#practice-with-program-optimization-in-c-2023)
+    - [Practice with C and ASM interface (2023)](#practice-with-c-and-asm-interface-2023)
+    - [Practice with functional programming in C++ (2023)](#practice-with-functional-programming-in-c-2023)
+    - [Practice with object-oriented programming in Kotlin (2023)](#practice-with-object-oriented-programming-in-kotlin-2023)
+- [Publications](#publications)
+    - [Study on the impact of ChatGPT on teaching introductory programming courses (2023)](#study-on-the-impact-of-chatgpt-on-teaching-introductory-programming-courses-2023)
+- [Other Essays](#other-essays)
+    - [Simulation of data flow in a LAN network (2021)](#simulation-of-data-flow-in-a-lan-network-2021)
+    - [Control system for automatic loading of a mixer through an auger (2021)](#control-system-for-automatic-loading-of-a-mixer-through-an-auger-2021)
+    - [Spectrum detection in cognitive radio networks: optimization and threshold analysis (2022)](#spectrum-detection-in-cognitive-radio-networks-optimization-and-threshold-analysis-2022)
 
-- [Desarrollo de un sistema de gestión para la venta de insumos informáticos (2015 - 2016)](https://github.com/francobottini99/SIS-INFBYB-2015.git)
+## Featured Projects
+
+- [Development of a Management System for Computer Supplies Sales (2015 - 2016)](https://github.com/francobottini99/SIS-INFBYB-2015.git)
     -
 
-    - **Fecha:** 11/06/2015 - 10/12/2016
+    - **Date:** 06/11/2015 - 12/10/2016
 
-    - **Descripción:** Este proyecto implementa un sistema de gestión para la venta de insumos informáticos. Facilita la gestión de los clientes, productos, proveedores, ventas, compras, etc. Cuenta con facturación electrónica **AFIP** y permite la generación de reportes y estadísticas.
+    - **Description:** This project implements a management system for computer supplies sales, facilitating the management of clients, products, suppliers, sales, purchases, etc. It includes electronic invoicing for **AFIP** and enables report and statistics generation.
 
 > [!NOTE]
-> Desarrollado en VB.NET utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
+> Developed in VB.NET using the `.NET Framework`. `MySQL` is used as the database.
 
-- [Desarrollo de un sistema de gestión para el manejo de un establecimiento ganadero #1 (2017)](https://github.com/francobottini99/SIS-SIEGAN1-2017.git)
+- [Development of a management system for handling a livestock farm #1 (2017)](https://github.com/francobottini99/SIS-SIEGAN1-2017.git)
     -
 
-    - **Fecha:** 02/01/2017 - 09/11/2017
+    - **Date:** 01/02/2017 - 11/09/2017
 
-    - **Descripción:** Este proyecto implementa un sistema de gestión para el manejo de un establecimiento ganadero. El sistema permite la gestión de los animales, los campos, los corrales, los empleados, los proveedores, los clientes, los gastos, los ingresos, los tratamientos, las vacunas, los medicamentos, los alimentos, los productos, los movimientos, los pesos, las muertes, etc.
+    - **Description:** This project implements a management system for livestock farm operations. The system manages animals, fields, pens, employees, suppliers, clients, expenses, income, treatments, vaccines, medications, feed, products, movements, weights, deaths, etc.
 
 > [!NOTE]
-> Desarrollado en VB.NET utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
+> Developed in VB.NET using the `.NET Framework`. `MySQL` is used as the database.
 
-- [Desarrollo de un sistema de gestión para el manejo de un establecimiento ganadero #2 (2018)](https://github.com/francobottini99/SIS-SIEGAN2-2018)
+- [Development of a management system for handling a livestock farm #2 (2018)](https://github.com/francobottini99/SIS-SIEGAN2-2018)
     -
 
-    - **Fecha:** 12/01/2018 - 12/10/2018
+    - **Date:** 01/12/2018 - 10/12/2018
 
-    - **Descripción:** Segunda versión del sistema de gestión para el manejo de un establecimiento ganadero. El sistema permite llevar un control de los animales, los lotes, los corrales, los empleados, los gastos, los ingresos, etc. En este también se implementa un sistema de manejo por caravanas electrónicas.
+    - **Description:** Second version of the management system for livestock farm operations. The system allows control over animals, batches, pens, employees, expenses, income, etc., and includes an electronic tag management system.
 
 > [!NOTE]
-> Desarrollado en VB.NET utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos. El sistema de manejo por caravanas electrónicas se implementa utilizando `Arduino`.
+> Developed in VB.NET using the `.NET Framework`. `MySQL` is used as the database. Electronic tag management is implemented using `Arduino`.
 
-- [Desarrollo de un sistema para el control de asistencia de alumnos por huella dactilar (2018)](https://github.com/francobottini99/SIS-SIA-2018.git)
+- [Development of a fingerprint-based student attendance control system (2018)](https://github.com/francobottini99/SIS-SIA-2018.git)
     -
 
-    - **Fecha:** 09/04/2018 - 30/11/2018
+    - **Date:** 04/09/2018 - 11/30/2018
 
-    - **Descripción:** En este trabajo se desarrolla un sistema para el control de asistencia de alumnos por huella dactilar. El sistema permite llevar un registro de asistencia de los alumnos de una institución educativa. Se implementa un software para la gestión del sistema, en donde se pueden realizar distintas tareas como la carga de alumnos, la carga de huellas dactilares, la carga de materias, la carga de horarios, etc. Además, se implementa el hardware y el software necesario para la lectura de las huellas dactilares. Los lectores de huellas se conectan a una red local por medio de un puerto ethernet para la comunicación con el sistema de gestión. El sistema cuenta con soporte para trabajar con multiples lectores de huellas.
+    - **Description:** This project develops a fingerprint-based student attendance system. The system records student attendance at an educational institution, with software that enables tasks like loading student data, fingerprints, subjects, schedules, etc. It also includes the necessary hardware and software for fingerprint reading. The fingerprint readers connect to a local network via Ethernet for communication with the management system. The system supports multiple fingerprint readers.
 
 > [!NOTE]
-> Desarrollado en C++, PHP y VB.NET. Se utiliza `Arduino` para el sistema de lectura de huellas dactilares. Se utiliza una base de datos `MySQL` para el almacenamiento de la información. Se utiliza `XAMPP` para el despliegue del servidor web y los scripts que permiten conectar el lector de huellas con la base de datos.
+> Developed in C++, PHP, and VB.NET. `Arduino` is used for the fingerprint reading system. `MySQL` is used as the database, and `XAMPP` is used for deploying the web server and scripts connecting the fingerprint reader to the database.
 
-- [Desarrollo de un sistema de gestión para la venta de agroinsumos (2019 - 2021)](https://github.com/francobottini99/SIS-SIGEVA-2019.git)
+- [Development of a management system for agro-inputs sales (2019 - 2021)](https://github.com/francobottini99/SIS-SIGEVA-2019.git)
     -
 
-    - **Fecha:** 05/04/2019 - 16/03/2021
+    - **Date:** 04/05/2019 - 03/16/2021
 
-    - **Descripción:** Este proyecto implementa un sistema de gestión para la venta de agroinsumos. Este sistema es una herramienta integral diseñada para facilitar la administración eficiente de la venta de productos agrícolas. Facilita la gestión de los clientes, productos, proveedores, ventas, compras, etc. Cuenta con facturación electrónica **AFIP** y permite la generación de reportes y estadísticas. El sistema cuenta con arquitecura cliente-servidor. El cliente se implementa para Windows y el servidor es una API REST.
+    - **Description:** This project implements a management system for agricultural supplies sales, designed as a comprehensive tool to facilitate efficient administration of agricultural product sales. It manages clients, products, suppliers, sales, purchases, etc., includes **AFIP** electronic invoicing, and enables report and statistics generation. The system has a client-server architecture, with a Windows client and a REST API server.
 
 > [!NOTE]
-> Desarrollado en VB.NET utilizando el framework `.NET Framework` para el cliente y `ASP.NET` para el servidor. Se utiliza `MySQL` como base de datos. El despliegue del servidor se realiza en `IIS`.
+> Developed in VB.NET using the `.NET Framework` for the client and `ASP.NET` for the server. `MySQL` is used as the database, and the server is deployed on `IIS`.
 
-- [Desarrollo de un sistema de control de llenado para un tanque de agua rural #1 (2021)](https://github.com/francobottini99/SIS-SICMA1-2021)
+- [Development of a water tank fill control system for rural use #1 (2021)](https://github.com/francobottini99/SIS-SICMA1-2021)
     -
 
-    - **Fecha:** 05/06/2021 - 30/07/2021
+    - **Date:** 06/05/2021 - 07/30/2021
 
-    - **Descripción:** Sistema automatizado de reabastecimiento de agua en producciones ganaderas de engorde a corral. El sistema controla en tiempo real el nivel de agua del tanque de abastecimiento de la producción, y envía en forma remota información al productor sobre el estado del mismo, éste recibe dicha información a traves de mensajes SMS, y podrá actuar en consecuencia. Si el funcionamiento es normal, el sistema mantiene el nivel de agua dentro de los límites que establezcamos cómo parámetro, encendiendo y apagando la bomba alimentadora cuando los niveles llegan a dichos limites. Además el sistema cuenta con muchos mecanismos de seguridad y alertas  para salvaguardar la integridad de la bomba en caso de fallos. Cada acción que implementa el sistema se informa, mediante SMS a un celular.
+    - **Description:** Automated water supply system for cattle production facilities. The system monitors the water tank level in real time and remotely informs the producer via SMS about the status, enabling responsive actions. The system keeps the water level within predefined limits by turning the pump on and off as necessary, and includes multiple safety mechanisms and alerts to safeguard pump integrity. Each action is reported to the user via SMS.
 
 > [!NOTE]
-> El sistema esta dividido en dos dispositivos, el primero encargado del control de la bomba y el segundo cumple la función de recibir SMS de control y enviar SMS de notificación del sistema. El software de ambos dispositivos esta desarrollado en C++ y se comunican entre ellos por medio de modulos de radiofrecuencia. 
+> The system is divided into two devices, with one managing the pump control and the other handling SMS control and notifications. Both devices' software is developed in C++ and communicate via RF modules.
 
-- [Desarrollo de un sistema de gestión para gimnasios (2022)](https://github.com/francobottini99/SIS-GYMCORE-2022.git)
+- [Development of a gym management system (2022)](https://github.com/francobottini99/SIS-GYMCORE-2022.git)
     -
 
-    - **Fecha:** 03/04/2022 - 20/06/2022
+    - **Date:** 04/03/2022 - 06/20/2022
 
-    - **Descripción:** En este trabajo se desarrolla un sistema de gestión para gimnasios. El sistema permite llevar un control de los clientes, los planes que poseen, las clases a las que asisten, etc. El objetivo de este proyecto es diseñar e implementar un sistema completo utilizando buenas practicas de desarrollo de software como integración continua, pruebas unitarias, documentación, etc.
+    - **Description:** This project develops a gym management system. The system tracks clients, their plans, and attended classes, following software development best practices like continuous integration, unit testing, and documentation.
 
 > [!NOTE]
-> Desarrollado en C# utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
+> Developed in C# using the `.NET Framework`. `MySQL` is used as the database.
 
-- Desarrollo de un sistema de control de llenado para un tanque de agua rural #2 (2022)
+- Development of a water tank fill control system for rural use #2 (2022)
     -
 
-    - **Fecha:** 05/07/2022 - 03/08/2022
+    - **Date:** 07/05/2022 - 08/03/2022
 
-    - **Descripción:** Segunda versión del sistema automatizado de reabastecimiento de agua en producciones ganaderas de engorde a corral. El sistema controla en tiempo real el nivel de agua del tanque de abastecimiento de la producción, y envía en forma remota información al productor sobre el estado del mismo, éste recibe dicha información en una App de celular, y podrá actuar en consecuencia. Si el funcionamiento es normal, el sistema mantiene el nivel de agua dentro de los límites que establezcamos cómo parámetro, encendiendo y apagando la bomba alimentadora cuando los niveles llegan a dichos limites. Además el sistema cuenta con muchos mecanismos de seguridad y alertas  para salvaguardar la integridad de la bomba en caso de fallos. Cada acción que implementa el sistema se informa, mediante conectividad a internet a la una aplicación Android para mantener al productor al tanto de todo lo que sucede. Se aplican otras mejoras respecto a la primera versión del sistema.
+    - **Description:** Second version of the automated water replenishment system for livestock facilities. It monitors the water tank level in real time and remotely updates the producer via a mobile app. The system maintains water levels by turning the pump on and off within predefined limits. Additionally, it includes safety mechanisms and alerts to protect the pump in case of failure. All actions are logged in an Android app for producer visibility. Improvements are made over the first version.
 
 > [!NOTE]
-> El sistema esta dividido en dos dispositivos, el primero encargado del control de la bomba y el segundo cumple la función de gateway para subir la información a la nube. El software de ambos dispositivos esta desarrollado en C++ y se comunican entre ellos por medio de modulos de radiofrecuencia. El gateway consume una API para subir la información a la nube. El productor puede visualizar la información en una aplicación de celular desarrollada en Android. La información se almacena en una base de datos `MySQL` y se utiliza `IIS` para el despliegue del servidor web.
+> The system is divided into two devices: one controls the pump, and the other serves as a gateway to upload data to the cloud. Both devices' software is developed in C++ and communicate via RF modules. The gateway uses an API to upload data to the cloud, and the producer can view data on an Android app. `MySQL` is used as the database, and `IIS` is used for server deployment.
 
 > [!WARNING]
-> Proximamente voy a estar subiendo el proyecto a un repositorio y dejando el enlace en esta sección.
+> The project will be uploaded to a repository soon, and the link will be provided in this section.
 
-- Desarrollo de una balanza para el pesaje de ganado bovino (2023)
+- Development of a cattle weighing scale (2023)
     -
 
-    - **Fecha:** 08/02/2023 - 04/03/2023
+    - **Date:** 02/08/2023 - 03/04/2023
     
-    - **Descripción:** Se desarrolla una balanza para el pesaje de ganado bovino. La balanza cuenta con conectividad Bluetooth para la comunicación con una aplicación de celular. La aplicación permite visualizar la información y controlar la balanza. Además, la aplicación permite almacenar la información en la nube y generar reportes.
+    - **Description:** A scale for weighing cattle is developed, with Bluetooth connectivity for communication with a mobile app. The app displays information and controls the scale, also storing data in the cloud and generating reports.
 
 > [!NOTE]
-> El hardware del dispositivo esta desarrollado en C++ usando `Arduino` como microcontrolador. La aplicación de celular esta desarrollada en `App Inventor 2`. La API esta desarrollada en C# con el framework `.NET Core`. Se utiliza `MySQL` como base de datos.
+> The device hardware is developed in C++ using `Arduino` as the microcontroller. The mobile app is created in `App Inventor 2`. The API is developed in C# with the `.NET Core` framework. `MySQL` is used as the database.
 
 > [!WARNING]
-> Proximamente voy a estar subiendo el proyecto a un repositorio y dejando el enlace en esta sección.
+> The project will be uploaded to a repository soon, and the link will be provided in this section.
 
-- [Desarrollo de un modulo de kernel para Linux (2023)](https://github.com/francobottini99/USBSERIAL-LINUX_KERNEL_MODULE-2023.git)
+- [Development of a Linux kernel module (2023)](https://github.com/francobottini99/USBSERIAL-LINUX_KERNEL_MODULE-2023.git)
     -
 
-    - **Fecha:** 12/06/2023 - 23/06/2023
+    - **Date:** 06/12/2023 - 06/23/2023
 
-    - **Descripción:** Implementación de un modulo para el kernel de Linux que permite la lectura de distintos sensores por medio de una interfaz de puerto serie. También se implementa una aplicación a nivel de usuario que hace uso del driver. El modulo del kernel se encarga de mapear y dar soporte a los sensores conectados por medio de un puente usb-serial, generando dispositivos en el directorio `/dev` que son fáciles de leer en aplicaciones de nivel de usuario por medio de operaciones con ficheros. 
+    - **Description:** Implementation of a Linux kernel module to read sensors via a serial port interface, including a user-level application that utilizes the driver. The kernel module maps and supports sensors connected through a USB-serial bridge, creating `/dev` devices easily accessible in user-level applications via file operations.
 
 > [!NOTE]
-> Desarrollado en C y en C# (cliente) utilizando las herramientas de GNU/Linux. Se utiliza una `Raspberry Pi 4` como sistema embebido con el sistema operativo `Raspbian` para realizar las pruebas. Los sensores utilizados son un `TFMINI` y un `DHT11`. Para la comunicación entre el sistema embebido y la computadora se utiliza un `CP210x`.
+> Developed in C and C# (client) using GNU/Linux tools. A `Raspberry Pi 4` with the `Raspbian` OS is used for testing. Sensors include a `TFMINI` and a `DHT11`, with `CP210x` used for communication between the embedded system and the computer.
 
-- [Desarrollo de un procesador MIPS simplificado para una placa de desarrollo FPGA (2023)](https://github.com/francobottini99/MIPSFPGA-2023.git)
+- [Development of a simplified MIPS processor for an FPGA development board (2023)](https://github.com/francobottini99/MIPSFPGA-2023.git)
     -
 
-    - **Fecha:** 13/11/2023 - 22/12/2023
+    - **Date:** 11/13/2023 - 12/22/2023
 
-    - **Descripción:** implementación de una versión simplificada de un procesador **MIPS** segmentado en una placa de desarrollo **FPGA**. El procesador implementa un conjunto de instrucciones reducido y un pipeline de 5 etapas. El objetivo de este proyecto es familiarizarse con el diseño de procesadores.
+    - **Description:** Implementation of a simplified, segmented **MIPS** processor on an **FPGA** development board. The processor includes a reduced instruction set and a 5-stage pipeline, designed as an exercise in processor design.
 
 > [!NOTE]
-> Desarrollado en Verilog. Se utiliza la placa de desarrollo `Basys 3`. Interfaz de usuario desarrollada en Python.
+> Developed in Verilog. The `Basys 3` development board is used. User interface developed in Python.
 
-## Proyectos Interesantes
-- [Desarrollo de un sistema para la organización de expedientes judiciales (2020)](https://github.com/francobottini99/SIS-BDCJ-2020)
+## Interesting Projects
+
+- [Development of a judicial file organization system (2020)](https://github.com/francobottini99/SIS-BDCJ-2020)
     -
 
-    - **Fecha:** 07/12/2020 - 23/12/2020
-
-    - **Descripción:** Programa simple que facilita el almacenamiento, etiquetado y recuperación de archivos judiciales. Permite catalogar expedientes digitales anexando infomación que facilite su posterior busqueda y recuperación.
+    - **Date:** 12/07/2020 - 12/23/2020
       
-> [!NOTE]
-> Desarrollado en `VB.NET` utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
-
-- [Desarrollo de un sistema de comunicación entre microcontroladres en ASM (2021)](https://github.com/francobottini99/SIS-COMPICASM-2021.git)
-    -
-
-    - **Fecha:** 01/06/2021 - 25/06/2021
-
-    - **Descripción:** Este repositorio, escrito en lenguaje ensamblador, consiste en la implementación de un sistema de comunicación UART entre dos microcontroladores PIC16F887. Un microcontrolador actúa como emisor, mientras que el otro actúa como receptor. La comunicación se establece a través de transmisiones y recepciones de datos seriales, permitiendo la interacción entre ambos dispositivos. El objetivo de este proyecto es familiarizarse con el desarrollo en sistemas embebidos utilizando ASM.
+    - **Description:** A simple program that facilitates the storage, tagging, and retrieval of legal files. It allows the cataloging of digital files by adding information to aid in later searching and retrieval.
 
 > [!NOTE]
-> Desarrollado en ASM. Se utiliza el microcontrolador `PIC16F887` para el control del sistema. Se utiliza un teclado matricial `4x4` para la entrada de datos. Se implementan 4 displays de 7 segmentos multiplexado para la visualización de la información.
+> Developed in `VB.NET` using the `.NET Framework`. `MySQL` is used as the database.
 
-- [Desarrollo de un sistema de alimentación automático para mascotas (2022)](https://github.com/francobottini99/SIS-ALIMLPC-2022.git)
+- [Development of an inter-microcontroller communication system in ASM (2021)](https://github.com/francobottini99/SIS-COMPICASM-2021.git)
     -
-
-    - **Fecha:** 22/10/2022 - 04/11/2022
-
-    - **Descripción:** Este repositorio consiste en el desarrollo de una estación de carga de alimento para mascotas, diseñada para su uso en el hogar. El dispositivo incorpora una celda de carga para medir el peso del recipiente de alimento y rellenarlo cuando el nivel caiga por debajo de 10 gramos, un sensor de nivel de agua para controlar la hidratación, y la capacidad de ser controlado a través de una aplicación móvil con conectividad Bluetooth.
+  
+    - **Date:** 06/01/2021 - 06/25/2021
+      
+    - **Description:** This assembly-language repository implements a UART communication system between two PIC16F887 microcontrollers. One microcontroller acts as the sender, while the other acts as the receiver. The communication is established through serial data transmission, allowing interaction between both devices. This project aims to gain experience in embedded systems development using ASM.
 
 > [!NOTE]
-> Desarrollado en C. Se utiliza el microcontrolador `LPC1769` para el control del sistema. Se utiliza el sensor de nivel de agua `HW-038`, una celda de carga generica de hasta 20 Kg con un módulo conversor analógico-digital de 24 bits más puente wheatstone `HX711`. Se utiliza el módulo bluetooth `HC-05` para la comunicación con la aplicación de celular. Se utiliza el teclado matricial `4x4` para la configuración del sistema. Motor paso a paso `28BYJ-48` y driver de corriente `SBT0811`.
+> Developed in ASM. The microcontroller `PIC16F887` is used for system control. A `4x4` matrix keyboard is used for data input, and four multiplexed 7-segment displays are implemented for information display.
 
-- [Desarrollo de una Shell simple para Linux #1 (2022)](https://github.com/francobottini99/LINUXSHELL1-2022.git)
+- [Development of an automatic pet feeding system (2022)](https://github.com/francobottini99/SIS-ALIMLPC-2022.git)
     -
 
-    - **Fecha:** 16/09/2022 - 01/10/2022
-
-    - **Descripción:** Este proyecto implementa un intérprete de línea de comandos diseñado para ejecutarse en entornos GNU/Linux. El objetivo principal es proporcionar un shell interactivo con funcionalidades básicas y capacidad para ejecutar comandos internos, programas externos, y scripts en segundo plano.
+    - **Date:** 10/22/2022 - 11/04/2022
+      
+    - **Description:** This repository consists of a pet food station designed for home use. The device includes a load cell to weigh the food container and refill it when the level drops below 10 grams, a water level sensor for hydration control, and Bluetooth connectivity for mobile control.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux.
+> Developed in C. The `LPC1769` microcontroller is used for system control. It uses the `HW-038` water level sensor, a generic 20 kg load cell with a 24-bit ADC module and Wheatstone bridge `HX711`, and the `HC-05` Bluetooth module for mobile app communication. The `4x4` matrix keyboard is used for system configuration, and the `28BYJ-48` stepper motor with `SBT0811` current driver for food dispensing.
 
-- [Desarrollo de una Shell simple para Linux #2 (2022)](https://github.com/francobottini99/LINUXSHELL2-2022.git)
+- [Development of a simple shell for Linux #1 (2022)](https://github.com/francobottini99/LINUXSHELL1-2022.git)
     -
 
-    - **Fecha:** 04/11/2022 - 07/11/2022
-
-    - **Descripción:** Este proyecto es una extensión del intérprete de línea de comandos MyShell. El objetivo principal de este proyecto es ampliar las funcionalidades de MyShell, incorporando el manejo de señales, tuberías (pipes) y redirección de entrada/salida.
+    - **Date:** 09/16/2022 - 10/01/2022
+      
+    - **Description:** This project implements a command-line interpreter for GNU/Linux environments, aiming to provide an interactive shell with basic functionalities and the ability to execute internal commands, external programs, and background scripts.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux.
+> Developed in C using GNU/Linux tools.
 
-- [Desarrollo de un sistema de gestión para la administración de una institución educativa (2023)](https://github.com/francobottini99/SIS-SISEDU-2023.git)
+- [Development of a simple shell for Linux #2 (2022)](https://github.com/francobottini99/LINUXSHELL2-2022.git)
     -
 
-    - **Fecha:** 18/01/2023 - 02/03/2023
-
-    - **Descripción:** En este trabajo se desarrolla un sistema de gestión para la administración de una institución educativa. El sistema permite llevar un control de los alumnos, los profesores, las materias, las notas, etc.
+    - **Date:** 11/04/2022 - 11/07/2022
+      
+    - **Description:** This project is an extension of the MyShell command-line interpreter, enhancing its functionality to include signal handling, pipes, and input/output redirection.
 
 > [!NOTE]
-> Desarrollado en C# utilizando el framework `.NET Framework`. Se utiliza `MySQL` como base de datos.
+> Developed in C using GNU/Linux tools.
 
-- [Desarrollo de un Sistema de comunicación cliente / servidor en C #1 (2023)](https://github.com/francobottini99/LINUXCLIENTSERVER1-2023.git)
+- [Development of a management system for an educational institution (2023)](https://github.com/francobottini99/SIS-SISEDU-2023.git)
     -
 
-    - **Fecha:** 17/03/2023 - 31/03/2023
-
-    - **Descripción:** Se implementa un sistema de comunicación cliente / servidor utilizando distintos mecanismos de IPC. Este proyecto tieme como objetivo diseñar e implementar un sistema en donde multiples clientes envian mensajes a un mismo servidor a traves de distintos mecanismos IPC (*pipe*, *FIFO*, *message queue*, etc.). 
+    - **Date:** 01/18/2023 - 03/02/2023
+      
+    - **Description:** This project develops a management system for an educational institution, enabling control over students, teachers, subjects, grades, and more.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux.
+> Developed in C# using the `.NET Framework`. `MySQL` is used as the database.
 
-- [Desarrollo de un Sistema de comunicación cliente / servidor en C #2 (2023)](https://github.com/francobottini99/LINUXCLIENTSERVER2-2023.git)
+- [Development of a client/server communication system in C #1 (2023)](https://github.com/francobottini99/LINUXCLIENTSERVER1-2023.git)
     -
 
-    - **Fecha:** 01/04/2023 - 25/04/2023
-
-    - **Descripción:** Se implementa un sistema de comunicación cliente / servidor utilizando sockets. Este proyecto tieme como objetivo diseñar e implementar un sistema en donde multiples clientes envian mensajes a un mismo servidor a traves de distintos tipos de scokets (*IPV4*, *IPV6*, *UNIX*, etc.).
+    - **Date:** 03/17/2023 - 03/31/2023
+      
+    - **Description:** This project implements a client/server communication system using various IPC mechanisms. It aims to design and implement a system where multiple clients send messages to a single server via different IPC methods (*pipe*, *FIFO*, *message queue*, etc.).
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux.
+> Developed in C using GNU/Linux tools.
 
-- [Desarrollo de un programa simple de procesamiento de imágenes (2023)](https://github.com/francobottini99/PARALLELPROGRAM-2023.git)
+- [Development of a client/server communication system in C #2 (2023)](https://github.com/francobottini99/LINUXCLIENTSERVER2-2023.git)
     -
 
-    - **Fecha:** 09/05/2023 - 26/05/2023
-
-    - **Descripción:** Se implementa un programa básico de procesamiento de imágenes. Este proyecto tieme como objetivo diseñar e implementar un programa que permita aplicar un filtro a una imagen en formato `GeoTiff` de entrada utilizando tecnicas de programación paralela.
+    - **Date:** 04/01/2023 - 04/25/2023
+      
+    - **Description:** This project implements a client/server communication system using sockets, aiming to design and implement a system where multiple clients send messages to a single server through different socket types (*IPv4*, *IPv6*, *UNIX*, etc.).
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux. Se hace uso de la librearía `OpenMPI` para programación paralela. Se utiliza la libreria `GDAL` para la manipulación de imágenes `GeoTiff`.
+> Developed in C using GNU/Linux tools.
 
-- [Desarrollo de una API REST simple en C (2023)](https://github.com/francobottini99/APIRESTC-2023.git)
+- [Development of a simple image processing program (2023)](https://github.com/francobottini99/PARALLELPROGRAM-2023.git)
     -
 
-    - **Fecha:** 25/05/2023 - 27/05/2023
-
-    - **Descripción:** Servidor web básico que permite incrementar un contador y ver su estado a través de dos *endpoints*. Este proyecto tieme como objetivo diseñar e implementar una API RESTful básica en C y un cliente capaz de consumirla.
+    - **Date:** 05/09/2023 - 05/26/2023
+      
+    - **Description:** This project implements a basic image processing program to apply a filter to an input image in `GeoTiff` format using parallel programming techniques.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux. Se hace uso del *framework* `Ulfius` para la implementación del servidor web.
+> Developed in C using GNU/Linux tools. `OpenMPI` is used for parallel programming, and the `GDAL` library for `GeoTiff` image manipulation.
 
-- [Desarrollo de una API REST simple en Go (2023)](https://github.com/francobottini99/APIRESTGO-2023.git)
+- [Development of a simple REST API in C (2023)](https://github.com/francobottini99/APIRESTC-2023.git)
     -
 
-    - **Fecha:** 26/05/2023 - 08/06/2023
-
-    - **Descripción:** Implementa dos servicios web básicos uno para el manejo de usuarios y otro para el registro de procesos. Además, se generan los arhcivos y configuraciones necesarias para correr sobre linux con Systemd y generar un servidor web con Nginx. Este proyecto tieme como objetivo diseñar e implementar una API REST en Go y configurar un servidor web con Nginx.
+    - **Date:** 05/25/2023 - 05/27/2023
+      
+    - **Description:** A basic web server that allows incrementing a counter and viewing its state through two *endpoints*. This project aims to design and implement a basic RESTful API in C and a client capable of consuming it.
 
 > [!NOTE]
-> Desarrollado en Go utilizando las herramientas de GNU/Linux. Se hace uso del *framework* `Gin` para la implementación del servidor web. Se utiliza `Nginx` como servidor web y `Systemd` para la configuración del servicio. Además, se implementa un servidor DNS utilizando `Bind9`. Uso de `SQLite` como base de datos.
+> Developed in C using GNU/Linux tools. The `Ulfius` framework is used for web server implementation.
 
-- [Desarrollo de una API REST simple en Rust (2023)](https://github.com/francobottini99/APIRESTRUST-2023.git)
+- [Development of a simple REST API in Go (2023)](https://github.com/francobottini99/APIRESTGO-2023.git)
     -
 
-    - **Fecha:** 06/12/2023 - 15/12/2023
-
-    - **Descripción:** En este proyecto se desarrolló una REST API para el manejo de un plan de comidas. Este proyecto tieme como objetivo diseñar e implementar una API REST en Rust.
+    - **Date:** 05/26/2023 - 06/08/2023
+      
+    - **Description:** Implements two basic web services, one for user management and another for process registration. Additionally, it configures the necessary files to run on Linux with Systemd and set up a web server with Nginx. This project aims to design and implement a REST API in Go and configure a web server with Nginx.
 
 > [!NOTE]
-> Desarrollado en Rust. Se hace uso del *framework* `Rocket` para la implementación del servidor web. Uso de `MySQL` como base de datos.
+> Developed in Go using GNU/Linux tools. The `Gin` framework is used for web server implementation, with `Nginx` as the web server and `Systemd` for service configuration. A DNS server is implemented using `Bind9`, and `SQLite` is used as the database.
 
-- [Desarrollo de un sistema de sensado utilizando RTOS (2024)](https://github.com/francobottini99/SIS-TEMPRTOS-2024.git)
+- [Development of a simple REST API in Rust (2023)](https://github.com/francobottini99/APIRESTRUST-2023.git)
     -
 
-    - **Fecha:** 02/01/2024 - 10/01/2024
-
-    - **Descripción:** Aplicación de un sistema operativo de tiempo real en un sistema embebido. Simulación de un sistema de control de temperatura con un filtro pasa bajos. Comunicación UART con una computadora para visualizar el estado del sistema y cambiar el coeficiente de filtrado. El proyecto tiene como objetivo familiarizarse con el uso de un sistema operativo de tiempo real en los sistemas embebidos.
+    - **Date:** 12/06/2023 - 12/15/2023
+      
+    - **Description:** This project developed a REST API for managing a meal plan. It aims to design and implement a REST API in Rust.
 
 > [!NOTE]
-> Desarrollado en C. Se utiliza el sistema operativo de tiempo real `FreeRTOS`. Se utiliza el simulador `QEMU` para la simulación del sistema embebido. Se emula el sistema embebido `Stellaris LM3S811`.
+> Developed in Rust using the `Rocket` framework for web server implementation. `MySQL` is used as the database.
 
-## Proyectos Simples 
-
-- [Práctica de algoritmos y estructura de datos en C++ (2021)](https://github.com/francobottini99/PR-AYED-2021.git)
+- [Development of a Sensing System using RTOS (2024)](https://github.com/francobottini99/SIS-TEMPRTOS-2024.git)
     -
 
-    - **Fecha:** 05/04/2021 - 15/04/2021
+    - **Date:** 01/02/2024 - 01/10/2024
+      
+    - **Description:** A real-time operating system application for an embedded system simulating a temperature control system with a low-pass filter. UART communication with a computer allows monitoring the system state and adjusting the filtering coefficient. This project aims to gain experience with real-time operating systems in embedded systems.
 
-    - **Descripción:** Este repositorio contiene un programa en C++ que simula el juego de la "Batalla Naval". El juego consiste en un tablero de 10x10 casilleros donde se posicionan 10 barcos de uno a cuatro casilleros, ya sea en forma horizontal o vertical. El objetivo es hundir todos los barcos a través de lanzamientos de "bombas" en posiciones específicas. En este proyecto se aplican conceptos básicos de algoritmos y estructuras de datos, implementando y utilizando pilas y colas.
+> [!NOTE]
+> Developed in C. The `FreeRTOS` real-time operating system is used, with `QEMU` simulating the embedded system. The `Stellaris LM3S811` embedded system is emulated.
+
+## Simple Projects
+
+- [Practice with algorithms and data structures in C++ (2021)](https://github.com/francobottini99/PR-AYED-2021.git)
+    -
+  
+    - **Date:** 04/05/2021 - 04/15/2021
+
+    - **Description:** This repository contains a C++ program that simulates the game "Battleship." The game consists of a 10x10 grid where 10 ships of varying lengths (one to four cells) are placed either horizontally or vertically. The objective is to sink all the ships by dropping "bombs" in specific positions. This project applies basic concepts of algorithms and data structures, implementing and using stacks and queues.
     
 > [!NOTE]
-> Desarrollado en C++.
+> Developed in C++.
 
-- [Práctica con arboles n-arios en C++ (2021)](https://github.com/francobottini99/PR-TREES-2021.git)
+- [Practice with n-ary trees in C++ (2021)](https://github.com/francobottini99/PR-TREES-2021.git)
     -
+  
+    - **Date:** 05/15/2021 - 05/29/2021
 
-    - **Fecha:** 15/05/2021 - 29/05/2021
-
-    - **Descripción:** Este repositorio contiene un programa en C++ que ordena alfabéticamente un archivo de texto con palabras, algunas de las cuales pueden estar repetidas. El resultado se guarda en otro archivo de texto con las palabras ordenadas junto con sus repeticiones. En este proyecto se utiliza un árbol n-ario y luego se implementa un algoritmo de ordenamiento sobre el mismo.
+    - **Description:** This repository contains a C++ program that alphabetically sorts a text file with words, some of which may be repeated. The result is saved in another text file with the sorted words and their frequencies. This project uses an N-ary tree and implements a sorting algorithm on it.
 
 > [!NOTE]
-> Desarrollado en C++.
+> Developed in C++.
 
-- [Práctica con grafos en C++ (2021)](https://github.com/francobottini99/PR-GRAPHS-2021.git)
+- [Practice with graphs in C++ (2021)](https://github.com/francobottini99/PR-GRAPHS-2021.git)
     -
+  
+    - **Date:** 06/05/2021 - 06/19/2021
 
-    - **Fecha:** 05/06/2021 - 19/06/2021
-
-    - **Descripción:** Este proyecto tiene como objetivo planificar el vuelo de un dron que llegue hasta los puntos donde hay malezas y aplique un herbicida. Se logra utilizando un grafo para representar la disposición de los cultivos, malezas y barreras en el terreno. En este repositorio se utilizan grafos aleatorios y se implementa un algoritmo heurístico para encontrar Ciclos Hamiltonianos en los mismos.
+    - **Description:** This project aims to plan a drone's route to reach weed patches and apply herbicide. A graph represents the layout of crops, weeds, and barriers in the field. This repository uses random graphs and implements a heuristic algorithm to find Hamiltonian Cycles within them.
 
 > [!NOTE]
-> Desarrollado en C++.
+> Developed in C++.
 
-- [Práctica de programación concurrente en Java (2022)](https://github.com/francobottini99/PR-CONCURRENT-2022.git)
+- [Practice with concurrent programming in Java (2022)](https://github.com/francobottini99/PR-CONCURRENT-2022.git)
     -
+  
+    - **Date:** 04/15/2022 - 04/24/2022
 
-    - **Fecha:** 15/04/2022 - 24/04/2022
-
-    - **Descripción:** El proyecto aborda un sistema de adquisición de datos concurrente que incluye dos buffers y tres tipos de actores: Creadores de Datos, Revisores de Datos y Consumidores de Datos. El ciclo de operación implica la creación, revisión y consumo de datos. Este proyecto tieme como objetivo familiarizarse con los conceptos de la programación concurrente.
+    - **Description:** This project covers a concurrent data acquisition system with two buffers and three actor types: Data Creators, Data Reviewers, and Data Consumers. The operation cycle involves data creation, review, and consumption. This project is aimed at familiarizing with concurrent programming concepts.
 
 > [!NOTE]
-> Desarrollado en Java.
+> Developed in Java.
 
-- [Práctica con el lenguaje C y las herramientas de GNU/Linux #1 (2022)](https://github.com/francobottini99/PR-CLINUX1-2022.git)
+- [Practice with C language and GNU/Linux tools #1 (2022)](https://github.com/francobottini99/PR-CLINUX1-2022.git)
     -
+  
+    - **Date:** 08/23/2022 - 08/27/2022
 
-    - **Fecha:** 23/08/2022 - 27/08/2022
-
-    - **Descripción:** Este repositorio tiene como objetivo repasar conceptos básicos del lenguaje C, incluyendo el manejo de strings, arreglos, y estructuras.
+    - **Description:** This repository aims to review basic C language concepts, including string handling, arrays, and structures.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux.
+> Developed in C using GNU/Linux tools.
 
-- [Práctica con el lenguaje C y las herramientas de GNU/Linux #2 (2022)](https://github.com/francobottini99/PR-CLINUX2-2022.git)
+- [Practice with C language and GNU/Linux tools #2 (2022)](https://github.com/francobottini99/PR-CLINUX2-2022.git)
     -
+  
+    - **Date:** 09/09/2022 - 09/12/2022
 
-    - **Fecha:** 09/09/2022 - 12/09/2022
-
-    - **Descripción:** Este repositorio tiene como objetivo familiarizarse con el diseño e implementación de librerías estáticas y dinámicas en el entorno de desarrollo GNU Toolchain y Linux Software. Se realizarán actividades que involucran el manejo de command line arguments, la implementación de una librería estática (cJSON) y una librería dinámica actuando como _plugin_.
+    - **Description:** This repository focuses on getting acquainted with designing and implementing static and dynamic libraries in the GNU Toolchain and Linux Software development environment. Activities involve handling command-line arguments, implementing a static library (cJSON), and a dynamic library acting as a plugin.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux.
+> Developed in C using GNU/Linux tools.
 
-- [Práctica con el lenguaje C y las herramientas de GNU/Linux #3 (2022)](https://github.com/francobottini99/PR-CLINUX3-2022.git)
+- [Practice with C language and GNU/Linux tools #3 (2022)](https://github.com/francobottini99/PR-CLINUX3-2022.git)
     -
+  
+    - **Date:** 11/04/2022 - 11/07/2022
 
-    - **Fecha:** 04/11/2022 - 07/11/2022
+    - **Description:** This repository addresses memory mapping in the context of a C language program executed in GNU/Linux.
+    
+> [!NOTE]
+> Developed in C using GNU/Linux tools.
 
-    - **Descripción:** Este repositorio aborda la tarea de mapeo de memoria en el contexto de un programa en lenguaje C ejecutado en GNU/Linux.
+- [Practice with program optimization in C (2023)](https://github.com/francobottini99/PR-OPTIM-2023.git)
+    -
+  
+    - **Date:** 05/05/2023 - 05/17/2023
+
+    - **Description:** This repository addresses optimizing a program that implements a convolution operation on a two-dimensional array.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux.
+> Developed in C using GNU/Linux tools. Utilized the `gprof` tool for performance analysis.
 
-- [Práctica de optimización de programas en C (2023)](https://github.com/francobottini99/PR-OPTIM-2023.git)
+- [Practice with C and ASM interface (2023)](https://github.com/francobottini99/PR-INTFCASM-2023.git)
     -
+  
+    - **Date:** 04/08/2023 - 04/17/2023
 
-    - **Fecha:** 05/05/2023 - 17/05/2023
-
-    - **Descripción:** Este repositorio abora la optimización de un programa que implementa una operación de convolución en una matriz bidimensional.
+    - **Description:** An assembler function is implemented to multiply two values. This function is called from a C program to perform currency conversions using cryptocurrency exchange rates obtained from a REST API. This project aims to familiarize with the interface between C and assembler.
 
 > [!NOTE]
-> Desarrollado en C utilizando las herramientas de GNU/Linux. Utilización de la herramienta `gprof` para analisis de rendimiento.
+> Developed in C and ASM using GNU/Linux tools.
 
-- [Práctica de interfaz entre C y ASM (2023)](https://github.com/francobottini99/PR-INTFCASM-2023.git)
+- [Practice with functional programming in C++ (2023)](https://github.com/francobottini99/PR-PARADFUNC-2023.git)
     -
+  
+    - **Date:** 11/26/2023 - 11/30/2023
 
-    - **Fecha:** 08/04/2023 - 17/04/2023
-
-    - **Descripción:** Se implementa una función en ensamblador que realiza la multiplicación de dos valor. Esta función es llamada desde un programa en C para realizar conversiones de divisas de las cotizaciones de distintas criptomonedas optenidas de una API REST. Este proyecto tieme como objetivo familiarizarse con la interfaz entre C y ensamblador.
+    - **Description:** The Dijkstra algorithm is implemented using functional programming. This project aims to familiarize with the functional programming paradigm.
 
 > [!NOTE]
-> Desarrollado en C y ASM utilizando las herramientas de GNU/Linux.
+> Developed in C++ using functional programming.
 
-- [Práctica de programación funcional en C++ (2023)](https://github.com/francobottini99/PR-PARADFUNC-2023.git)
+- [Practice with object-oriented programming in Kotlin (2023)](https://github.com/francobottini99/PR-KOTLIN-2023.git)
     -
+  
+    - **Date:** 11/24/2023 - 12/02/2023
 
-    - **Fecha:** 26/11/2023 - 30/11/2023
-
-    - **Descripción:** Se implementa el algoritmo de Dijkstra utilizando programación funcional. Este proyecto tieme como objetivo familiarizarse con el paradigma de la programación funcional.
+    - **Description:** This repository simulates package delivery between network routers. Dijkstra's algorithm is used to find the shortest path between a source router and a destination router, considering connection bandwidth. This project aims to familiarize with object-oriented programming in Kotlin.
 
 > [!NOTE]
-> Desarrollado en C++ utilizando paradigma de programación funcional.
+> Developed in Kotlin using object-oriented programming.
 
-- [Práctica de programación orientada a objetos en Kotlin (2023)](https://github.com/francobottini99/PR-KOTLIN-2023.git)
+## Publications
+
+- [Study on the impact of ChatGPT on teaching introductory programming courses (2023)](https://colab.research.google.com/drive/1qkPObfE53NE49t9K8i9sblH1-8RvxW6W)
     -
+    Abstract – The widespread use of artificial intelligence tools is a reality that currently brings significant paradigm shifts in both the workplace and educational settings. This paper explores the impact of one of these new AI tools, ChatGPT, in teaching the basics of programming. To achieve this, we analyze the performance of this technology in assessments for an introductory C++ programming course at the Faculty of Exact, Physical, and Natural Sciences of the National University of Córdoba, Argentina. This analysis reveals that ChatGPT can successfully solve evaluative exercises with an effectiveness rate of 97%, suggesting that a student without the necessary knowledge could pass an exam. Consequently, the reliability of current evaluation methods is at risk. Additionally, it is inferred that misuse of this technology by students in early learning stages negatively impacts their education. On the other hand, the tool’s potential for validation and tutoring is highlighted when used honestly.
 
-    - **Fecha:** 24/11/2023 - 02/12/2023
+## Other Essays
 
-    - **Descripción:** En este repositorio se realizó la simulación del envío de paquetes entre routers de una red. A su vez, se utilizo el algoritmo de Dijkstra para buscar el camino más corto entre un router de origen y otro de destino teniendo en cuenta el ancho de banda de las conexiones. Este proyecto tieme como objetivo familiarizarse con la programación orientada a objetos en Kotlin.
-
-> [!NOTE]
-> Desarrollado en Kotlin utilizando paradigma de programación orientada a objetos.
-
-## Publicaciones
-
-- [Estudio del impacto de ChatGPT en la enseñanza de materias introductorias a la programación (2023)](https://colab.research.google.com/drive/1qkPObfE53NE49t9K8i9sblH1-8RvxW6W)
+- [Simulation of data flow in a LAN network (2021)](https://drive.google.com/drive/folders/1qzJe98ykvoEDYisDOAkCBx9C0ODuvnxe?usp=drive_link)
     -
-    Resumen– La masificación en el uso de herramientas de inteligencia artificial es una realidad que actualmente se está atravesando y aparenta desencadenar un cambio de paradigma importante en ámbitos laborales y educativos. En este artículo se expone el impacto que genera una de estas nuevas herramientas de inteligencia artificial, ChatGPT, en la enseñanza de los conceptos básicos de la programación. Para lograr este objetivo, se analiza el comportamiento de esta tecnología en la resolución de evaluaciones de una asignatura introductoria a la programación en C++ de la Facultad de Ciencias Exactas, Física y Naturales de la Universidad Nacional de Córdoba, Argentina. Con este análisis, se revela que ChatGPT es capaz de resolver los ejercicios evaluativos con un porcentaje de efectividad del 97%, por lo tanto, un estudiante sin los conocimientos necesarios puede aprobar un examen. A partir de esto, se puede concluir que la fiabilidad de los métodos de evaluación actuales está en peligro. En adición, se logra inferir que el mal uso de esta tecnología por parte de los estudiantes en las etapas tempranas de aprendizaje, supone un impacto negativo en su formación. Por otra parte, se destaca el potencial de validación y tutoría que proporciona esta herramienta cuando se realiza un uso honesto de la misma.
+    Abstract – A model simulating data traffic flow in a domestic Local Area Network (LAN) was implemented. For its development, network traffic data was collected from the modeled network using *Wireshark*, and the simulation model was built in the continuous systems software *Vensim*. Finally, an analysis of the obtained results was conducted, and conclusions were drawn.
 
-## Otros Ensayos
-
-- [Simulación del flujo de datos en una red LAN (2021)](https://drive.google.com/drive/folders/1qzJe98ykvoEDYisDOAkCBx9C0ODuvnxe?usp=drive_link)
+- [Control system for automatic loading of a mixer through an auger (2021)](https://drive.google.com/file/d/1xo5yuYxfn0Ty7pa3vXE9G_RxFwSVA1Cl/view?usp=drive_link)
     -
-    Resumen– Se implementó un modelo de simulación del flujo de tráfico de datos en una Red de Área Local (LAN) domestica. Para el desarrollo del mismo, se recopiló información sobre el tráfico de la red a modelar utilizando el software *Wireshark* y se implementó el modelo de simulación en el software de sistemas continuos *Vensim*. Para finalizar, se realizó un análisis de los resultados obtenidos y se elaboraron conclusiones al respecto.
+    Abstract – This work addresses the complete design process of a control system for loading a mixer via an auger. Throughout the paper, a detailed mathematical model describing the proposed system is developed. Subsequently, a rigorous analysis of the obtained model is conducted, followed by the proposal and evaluation of a control scheme aligned with the outlined needs. The work concludes with the presentation of the findings.
 
-- [Sistema de control para la carga automática de un mixer por medio de un chimango (2021)](https://drive.google.com/file/d/1xo5yuYxfn0Ty7pa3vXE9G_RxFwSVA1Cl/view?usp=drive_link)
+- [Spectrum detection in cognitive radio networks: optimization and threshold analysis (2022)](https://colab.research.google.com/drive/1TUuhHut5LxvuKjVRXF-GJJU0QivbYkBM)
     -
-    Resumen– En este trabajo se aborda el proceso completo de diseño de un sistema de control para la carga de un mixer por medio de un chimango. A lo largo del trabajo se desarrolla un modelo matemático detallado para la descripción del sistema planteado, posteriormente, se realiza un análisis riguroso sobre el modelo obtenido, y para finalizar, se propone y analiza un esquema de control acorde a las necesidades expuestas. Cerrando con el trabajo se exponen las conclusiones obtenidas.
-
-- [Detección de espectro en redes de radio cognitivas: optimización y análisis de umbrales (2022)](https://colab.research.google.com/drive/1TUuhHut5LxvuKjVRXF-GJJU0QivbYkBM)
-    -
-    Resumen– El espectro radioeléctrico es un bien limitado fundamental para el uso de las radiocomunicaciones, con el objetivo de aumentar la eficiencia en el uso de este recurso surgen las redes de Radio Cognitiva (RC), esta nueva tecnología involucra dentro de sus funciones conocer su entorno (como por ejemplo, el espectro de radiofrecuencia) mediante diferentes técnicas de detección. El presente trabajo se basa en el estudio de dos de estas tecnicas de deteccion: el detector de energía y el detector de entropia, ambos puestos a prueba utilizando una señal QPSK en un canal AWGN.
+    Abstract – The radio spectrum is a limited and essential resource for radiocommunication usage. To increase efficiency in the use of this resource, Cognitive Radio (CR) networks have emerged, which incorporate functions such as environment awareness (e.g., radiofrequency spectrum) through various detection techniques. This study focuses on two of these detection techniques: the energy detector and the entropy detector, both tested using a QPSK signal in an AWGN channel.
