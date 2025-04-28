@@ -1,4 +1,4 @@
-# Portfolio (Last Update - 27/02/2025)
+# Portfolio (Last Update - 27/02/2024)
 
 This document provides a selection of some projects I have worked on throughout my career as a developer.
 
